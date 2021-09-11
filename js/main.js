@@ -1,6 +1,6 @@
 $(function(){
 
   $('button').click(function() {
-    alert('クリックされました！');
+    alert('うんこ');
   })
 });
