@@ -20,19 +20,57 @@ h1 {
   margin: 0; padding: 0;
   font-size: 20px;
 }
-a { 
+a {
   text-decoration: none;
   color: #4b4b4b;
 }
 nav {
   margin: 0 0 0 auto;
 }
-ul {
-  list-style: none;
-  margin: 0;
+
+.dropdwn{
   display: flex;
 }
-li {
-  margin: 0 0 0 15px;
-  font-size: 14px;
+
+ul{
+  text-align: center;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  color: #fff;
 }
+
+li{
+  max-width: calc(1200px/5);
+  position: relative;
+  display: block;
+  cursor: pointer;
+  color:black;
+}
+
+.dropdwn>li{
+  width: 80px;
+  margin: 1px;
+  display: inline;
+}
+
+.dropdwn_menu{
+  width: 100%;
+  display: none;
+  position: absolute;
+  padding: 0;
+  background: black;
+  border-radius: 10%;
+}
+
+.dropdwn_menu li{
+  width: 100%;
+  padding: 8px;
+}
+
+.dropdwn_menu li a{
+  display: block;
+  color: #fff;
+  font-size: 10px;
+}
+
